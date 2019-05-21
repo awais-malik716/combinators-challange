@@ -1,0 +1,36 @@
+body{
+    background-color: #060606;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 278px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+}
+
+.icon{
+    color: #fdf733;
+    font-size: 5em;
+    margin: 20px;
+}
+
+span{
+    color: #202020;
+    font-size: 5em;
+    margin: 2px;
+}
+span:hover{
+    color: #ea4963;
+}
+
+span:hover ~ span{
+    color: white;
+}
+span:hover + span{
+    color: #f08eb1;
+}
